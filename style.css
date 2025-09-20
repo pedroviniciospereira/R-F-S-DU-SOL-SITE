@@ -1,0 +1,102 @@
+/* ================================
+   Imagem principal
+================================= */
+.img-1 {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 15px;
+  display: block;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ================================
+     Estilização geral do body
+  ================================= */
+body {
+  background-image: url("https://m.media-amazon.com/images/I/61AhmHz0LjL._UF1000,1000_QL80_.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 1.6;
+  padding: 20px;
+  backdrop-filter: brightness(
+    0.9
+  ); /* Escurece um pouco a imagem para melhor leitura */
+}
+
+/* ================================
+     Títulos
+  ================================= */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* ================================
+     Parágrafos e links
+  ================================= */
+p {
+  max-width: 900px;
+  margin: 10px auto;
+  font-size: 18px;
+  text-align: justify;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Leve fundo escuro para melhor leitura */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+a {
+  color: #00ccff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+     Responsivo para telas menores
+  ================================= */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .img-1 {
+    width: 95%;
+  }
+}
